@@ -1,0 +1,12 @@
+
+@mixin responsive-text($size) {
+    font-size: $size;
+
+    @media (max-width: 768px) {
+        font-size: $size * 0.8;
+    }
+
+    @media (max-width: 480px) {
+        font-size: $size * 0.6;
+    }
+}
