@@ -1,0 +1,42 @@
+{
+    "name": "Juan Pablo Cortez Navarro",
+    "title": "Computer Systems Engineering Student",
+    "contactInfo": {
+        "phone": "+52 3781396803",
+        "email": "jpcortezn@outlook.com",
+        "location": "Zapopan",
+        "linkedin": "https://www.linkedin.com/in/juan-pablo-cortez-39b01824a/"
+    },
+    "education": [
+        {
+            "period": "August 2021 - December 2025",
+            "institution": "ITESO",
+            "degree": "Bachelor's Degree in Computer Systems Engineering"
+        }
+    ],
+    "skills": [
+        {"name": "React"},
+        {"name": "SQL"},
+        {"name": "GIT"},
+        {"name": "JavaScript"},
+        {"name": "Microsoft PowerShell"},
+        {"name": "Linux adept"},
+        {"name": "Python"},
+        {"name": "NAS management"}
+    ],
+    "workExperience": [
+        {
+            "position": "INTERN IN ZOHO CREATOR & ZOHO ANALYTICS DEVELOPER",
+            "company": "IsolutionBusiness",
+            "period": "August 2023 - May 2024",
+            "responsibilities": [
+                "Learned Zoho language like Deluge and ZML.",
+                "Created multiple interfaces with Zoho widgets."
+            ]
+        }
+    ],
+    "projects": [
+        {"name": "WIP", "description": "Work in Progress"}
+    ],
+    "formAction": "action='https://formsubmit.co/pablo.cortez@iteso.mx'"
+}
