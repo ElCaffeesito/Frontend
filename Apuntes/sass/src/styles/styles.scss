@@ -1,0 +1,23 @@
+@import 'colors';
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: $text-color;
+}
+
+@mixin btn-template {
+    border: solid 1px #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.btn {
+    @include btn-template;
+}
+
+.btn-primary {
+    @include btn-template;
+}

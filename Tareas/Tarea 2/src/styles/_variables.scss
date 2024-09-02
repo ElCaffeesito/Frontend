@@ -1,0 +1,14 @@
+$primary-color: #888;
+$font-stack: "Comic Sans MS", cursive, sans-serif;
+$max-width: 1200px;
+$gutter: 20px;
+
+$secondary-color: #aaa;
+$background-color: #eee;
+$input-padding: 10px;
+$input-border-radius: 5px;
+$input-border-color: #ccc;
+$input-focus-color: $primary-color;
+$button-background: $primary-color;
+$button-color: #fff;
+$button-hover-background: darken($primary-color, 10%);
