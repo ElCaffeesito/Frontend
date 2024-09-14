@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+#container {
+    height: 600px;
+    width: 800px;
+    border: 1px black solid;
+    margin: 0 auto;
+}
+
+#square {
+    height: 100px;
+    width: 100px;
+    background-color: blueviolet;
+
+}
+
+#title {
+    text-align: center;
+}

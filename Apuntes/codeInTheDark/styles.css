@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+
+#header {
+    height: 80px;
+    background-color: #222;
+
+}
+
+#headerName {
+    color: #444;
+}
+
+#headerList {
+    text-decoration: none;
+}
+
+.HeaderLine {
+    display: inline-block;
+}
+
+#user {
+    right: 0;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #cccaaa;
+}
+
+#main {
+    width: 70%;
+}
+
+#mainCard {
+    box-sizing: 90%;
+    margin: 10%;
+}
+
+.mainCardButton {
+    background-color: #35a;
+}
+
+.cardButton {
+    background-color: #bbb;
+}
+
+.card {
+    width: 33%;
+}
