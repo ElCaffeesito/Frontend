@@ -1,0 +1,29 @@
+header {
+    padding: 0 20px;
+    height: 80px;
+    background-color: #a6a;
+}
+
+span {
+    color: purple;
+    font-size: 28px;
+    line-height: 80px;
+    font-weight: bold;
+}
+
+ul {
+    display: inline;
+    margin: 0;
+    list-style: none;
+
+    li {
+        display: inline-block;
+        margin-left: 8px;
+
+        a {
+            display: inline-block;
+            padding: 0 10;
+            line-height: 80px;
+        }
+    }
+}

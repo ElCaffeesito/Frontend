@@ -1,0 +1,14 @@
+<div id="board">
+    @for (img of imagenes; track img) {
+        <div>
+            <img [src]="img.actual" (click)="cambiarImagen(img)" alt="Imagen">
+        </div>
+        }
+</div>
+
+
+<div class="message" id="win">
+    @if(gameCompleted) {
+        <h3>¡Felicidades! Has completado el juego.</h3>
+    }
+</div>
