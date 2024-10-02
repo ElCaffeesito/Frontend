@@ -1,0 +1,22 @@
+<p>movies-list works!</p>
+<button mat-flat-button color="warn">Click me!</button>
+<button mat-flat-button color="warn" disabled>aaaaa me!</button>
+
+<h2>Lista de Peliculas</h2>
+
+<div>
+    @for (movie of movies; track $index) {
+        <div>{{movie.title}}</div>
+        <img src="{{movie.url}}" alt="">
+    }
+</div>
+
+
+<form (click)="submit()">
+    <mat-form-field>
+        <mat-label>Movie title</mat-label>
+        <input type="text" matInput="title">
+        <mat-error>Este campo es requerido</mat-error>
+    </mat-form-field>
+    <button mat-flat-button> submit</button>
+</form>
