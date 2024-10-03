@@ -1,0 +1,10 @@
+<ul>
+
+      @for(user of users; track $index){
+        <li [ngClass]="{'selected': user.id === selectedUserId}"
+            (click)="selectUser(user)">
+            {{ user.name }}
+        </li>
+      }
+
+  </ul>
