@@ -1,0 +1,43 @@
+@import 'variables';
+@import 'mixins';
+@import 'base';
+@import 'layout';
+@import 'form';
+
+.socialMedia {
+    color: black;
+    text-decoration: none;
+}
+
+// Estilos generales
+body {
+    margin: 0;
+    font-family: $font-stack;
+    background-color: $background-color;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: $primary-color;
+    color: white;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+// Estilos para el contenido principal
+main {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+// Secciones del CV
+.contact-section, .education-section, .skills-section, .work-experience-section, .projects-section {
+    margin-bottom: 20px;
+}
+
+// Formulario de contacto
+

@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.header, .footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #888;
+  color: white;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.sgrid, .lgrid {
+  box-sizing: border-box;
+  padding: 20px;
+  flex: 1 1 0;
+}
+
+.sgrid {
+  width: 30%;
+  border-right: 2px solid #888;
+}
+@media (max-width: 768px) {
+  .sgrid {
+    width: 100%;
+    border-right: none;
+    border-bottom: 2px solid #888;
+  }
+}
+
+.lgrid {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .lgrid {
+    width: 100%;
+  }
+}
+
+.contact-form-section {
+  margin-top: 20px;
+}
+.contact-form-section form {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.contact-form-section form .form-group {
+  margin-bottom: 15px;
+}
+.contact-form-section form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.contact-form-section form .form-group input, .contact-form-section form .form-group textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.contact-form-section form button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #888;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.contact-form-section form button:hover {
+  background-color: #6f6f6f;
+}
+
+.socialMedia {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color: #eee;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px 0;
+  background-color: #888;
+  color: white;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+main {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-section, .education-section, .skills-section, .work-experience-section, .projects-section {
+  margin-bottom: 20px;
+}
