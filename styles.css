@@ -1,0 +1,65 @@
+:root{
+    --main-bg-color: lightblue;
+    --header-height: 80px;
+}
+
+body {
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    height: calc(100vh - var(--header-height));
+    background-color: var(--main-bg-color);
+}
+
+header {
+    height: 80%;
+
+    ul {
+        margin: 0px;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            width: 100px;
+
+            a {
+                line-height: 80px;
+                display: block;
+                text-align: center;
+
+                &:hover {
+                    background-color: var(--main-bg-color);
+                }
+            }
+        }
+    }
+}
+
+.gallery>div {
+    height: 200px;
+    background-color: lightgreen;
+    width: 25%;
+    float: left;
+    border: solid 1px green;
+    box-sizing: border-box;
+}
+
+.gallery::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 800px) {
+    .gallery>div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .gallery>div {
+        width: 100%;
+    }
+}
